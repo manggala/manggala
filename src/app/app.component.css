@@ -1,12 +1,23 @@
 .navbar{
 	background: rgba(255,255,255, 0.1);
 	border-bottom: solid rgba(255,255,255, 0.2) 1px;
-	padding: 1rem;
 	color:white;
-	min-height: 1rem;
+	padding: 1rem;
+	padding-bottom: 1rem;
 }
 .navbar a{
 	color: white;
 	text-decoration: none;
-	margin-right: 1rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+}
+
+.navbar a.active{
+	border-bottom: solid 2px rgba(255,255,255, 1);
+	background: rgba(255,255,255, 0.1); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(255,255,255, 0), rgba(255,255,255,0.1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(255,255,255, 0), rgba(255,255,255,0.1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(255,255,255, 0), rgba(255,255,255,0.1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(255,255,255, 0), rgba(255,255,255,0.1)); /* Standard syntax */
 }

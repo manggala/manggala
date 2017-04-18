@@ -1,9 +1,10 @@
 <div class="navbar">
-	<a routerLink="/">Home</a>
-	<a routerLink="/education">Educations</a>
-	<a routerLink="/skill">Skills</a>
-	<a routerLink="/experience">Experiences</a>
-	<a routerLink="/project">Projects</a>
-	<a routerLink="/contact">Contacts</a>
+	<a routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a>
+	<a routerLink="/education" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Educations</a>
+	<a routerLink="/skill" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Skills</a>
+	<a routerLink="/experience" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Experiences</a>
+	<a routerLink="/project" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Projects</a>
+	<a routerLink="/contact" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Contacts</a>
+	<a routerLink="/about" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">About this Website</a>
 </div>
 <router-outlet></router-outlet>

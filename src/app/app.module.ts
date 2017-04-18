@@ -7,12 +7,14 @@ import { RouterModule, Routes }  from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ExperienceComponent,
+    EducationComponent,
   ],
   imports: [
     BrowserModule,
@@ -21,12 +23,21 @@ import { ExperienceComponent } from './experience/experience.component';
     RouterModule.forRoot([
     {
       path: "",
-      component: HomeComponent
+      pathMatch: 'full',
+      redirectTo: 'home',
     },
     {
       path: "experience",
       component: ExperienceComponent
-    }
+    },
+    {
+      path: "home",
+      component: HomeComponent
+    },
+    {
+      path: "education",
+      component: EducationComponent
+    },
     ])
   ],
   providers: [],

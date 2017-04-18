@@ -1,0 +1,10 @@
+.education{
+	text-align: center;
+	width: 100%;
+}
+
+.education img{
+	width: 20%;
+	opacity: 0.8;
+	margin-top: 10vh;
+}

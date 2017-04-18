@@ -29,3 +29,28 @@ body{
     50% { background-color:rgb(25,25,25); }
     100% { background-color:rgb(50,50,50); } 
 }
+
+h1, h2, h3{
+    font-weight: lighter;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h1{
+    margin-top: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+div.row{
+    width: 100%;
+    display: block;
+}
+
+div.row .div-6{
+    width: 50%;
+    display: inline;
+}

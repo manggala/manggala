@@ -1,15 +1,30 @@
 <div class="experience">
 	<div class="experience-list">
 		<ul>
-			<li class="active">
-				<a >Data 1</a>
-			</li>
-			<li>
-				Data2
+			<li *ngFor="let experience of experiences" (click)="showDetail(experience.id)">
+				<a class="experience-button">
+					<b>{{ experience.title }}</b>
+					<p>{{ experience.workingAt }}</p>
+				</a>
 			</li>
 		</ul>
 	</div>
 	<div class="experience-detail">
-		Detail
+		<div *ngIf="selectedExperience">
+			<h1>{{ selectedExperience.title }}</h1>
+			<div class="row">
+				<div class="div-6">
+					<img src="{{ selectedExperience.thumbnail }}" class="experience-detail-logo">
+				</div>
+				<div class="div-6">
+					
+				</div>
+			</div>
+			<div class="row">
+				<p>
+					{{ selectedExperience.description }}
+				</p>
+			</div>
+		</div>
 	</div>
 </div>

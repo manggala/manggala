@@ -1,28 +1,59 @@
+@media screen and (max-width: 960px){
+	.experience{
+		margin: 0px;
+	}
+}
 .experience{
-	width: 100%;
-}
-.experience div{
-	display: inline;
-	float: left;
-}
-.experience-list{
-	min-width: 30rem;
-	widows: 30%;
+	width: 80%;
+	padding: 1rem;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
-ul{
-	padding: 0px;
-	margin: 0px;
-	border: solid rgba(255,255,255, 0.2);
-	height: 93vh;
-	border-top: none;
-	border-left: none;
+.experience-list, .experience-detail{
+	float: left;
+	display: inline;
+	width: 100%;
 }
-li{
-	padding: 1rem;
+
+.experience-list{
+	min-width: 150px;
+	width: 40%;
+}
+.experience-detail{
+	width: 55%;
+	padding: 2.5%;
 	background: rgba(255,255,255, 0.1);
 }
 
-li.active{
-	background: rgba(255,255,255, 0.2);
+.experience-list ul li{
+	list-style: none;
+	text-decoration: none;
+	background: rgba(0,0,0, 0.1);
+	margin: 0px;
+	padding: 1rem;
+	margin-bottom: 12px;
+	border: solid .5px rgba(50,50,50, .5);
+}
+
+.experience-list ul{
+	margin: 0px;
+	padding: 1rem;
+	padding-top: 0px;
+}
+
+.experience-button b{
+	font-weight: bolder;
+}
+
+.experience-button p{
+	font-size: 12px;
+}
+
+.experience-detail-logo{
+	width: 100%;
+}
+
+.experience-detail div div{
+	margin-top: 1rem;
 }
