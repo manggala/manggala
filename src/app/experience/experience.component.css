@@ -1,0 +1,28 @@
+.experience{
+	width: 100%;
+}
+.experience div{
+	display: inline;
+	float: left;
+}
+.experience-list{
+	min-width: 30rem;
+	widows: 30%;
+}
+
+ul{
+	padding: 0px;
+	margin: 0px;
+	border: solid rgba(255,255,255, 0.2);
+	height: 93vh;
+	border-top: none;
+	border-left: none;
+}
+li{
+	padding: 1rem;
+	background: rgba(255,255,255, 0.1);
+}
+
+li.active{
+	background: rgba(255,255,255, 0.2);
+}
