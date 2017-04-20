@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { EducationComponent } from './education/education.component';
     HomeComponent,
     ExperienceComponent,
     EducationComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,6 +39,10 @@ import { EducationComponent } from './education/education.component';
     {
       path: "education",
       component: EducationComponent
+    },
+    {
+      path: "contact",
+      component: ContactComponent
     },
     ])
   ],

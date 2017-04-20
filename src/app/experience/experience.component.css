@@ -57,3 +57,7 @@
 .experience-detail div div{
 	margin-top: 1rem;
 }
+a:hover{
+	text-decoration: none !important;
+	color: rgb(230,230,230);
+}
